@@ -1,5 +1,11 @@
 # GraftLLM: Knowledge Grafting of Large Language Models
 
+This is the source code to reproduce the experiments for "[Knowledge Grafting of Large Language Models](https://arxiv.org/abs/2505.18502)" by Guodong Du, Xuanning Zhou, Junlin Lee, Zhuo Li, Wanyu Lin, Jing Li.
+
+our key contributions include:
+(1) We highlight the necessity of cross-capability transfer between heterogeneous large language models and identify limitations in existing methods regarding generalization and adaptability. (2) We propose **GraftLLM**, which structures cross-model capabilities as SkillPack, offering high performance, forgetfulness resistance, and easy integration for practical applications. 
+(3) Experiments show GraftLLM significantly improves performance in knowledge transfer and compression, heterogeneous model fusion, and continual learning tasks.
+
 <img src="./assets/imgs/graftllm_result.png" alt="Figure 1: Example Image" title="Figure 1: Example Image">
 
 # 💡 Quick Start
@@ -33,5 +39,3 @@ See ./GraftLLM-Evaluation for for more details.
 GraftLLM transfers capabilities across heterogeneous LLMs and extracts them into compact SkillPacks, facilitating efficient knowledge fusion and continual learning.
 
 <img src="./assets/imgs/graftllm_method.png" alt="Figure 1: Example Image" title="Figure 1: Example Image">
-
-```
