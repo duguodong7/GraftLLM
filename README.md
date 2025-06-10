@@ -39,3 +39,15 @@ See ./GraftLLM-Evaluation for for more details.
 GraftLLM transfers capabilities across heterogeneous LLMs and extracts them into compact SkillPacks, facilitating efficient knowledge fusion and continual learning.
 
 <img src="./assets/imgs/graftllm_method.png" alt="Figure 1: Example Image" title="Figure 1: Example Image">
+
+# Reference
+Please cite our paper if you use our models in your works:
+
+```bibtex
+@article{du2025knowledge,
+  title={Knowledge grafting of large language models},
+  author={Du, Guodong and Zhou, Xuanning and Li, Junlin and Li, Zhuo and Shi, Zesheng and Lin, Wanyu and Tang, Ho-Kin and Li, Xiucheng and Liu, Fangming and Wang, Wenya and others},
+  journal={arXiv preprint arXiv:2505.18502},
+  year={2025},
+  url={https://arxiv.org/abs/2505.18502}, 
+}
